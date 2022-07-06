@@ -117,12 +117,23 @@
 // //     console.log('x jest nieparzyste')
 // // }
 
-const x = 450
-let text
-if (x >= 100) {
-    console.log('x>=100')
-} else if (x < 100 && x > 30) {
-    console.log('x jest średniiem')
-} else {
-    console.log('x jest mały')
-} 
+// const x = 10
+// let text
+// if (x >= 100) {
+//     text = ('x>=100')
+// } else if (x < 100 && x > 30) {
+//     text = ('x jest średniakiem')
+// } else {
+//     text = ('x jest mały')
+// }
+// console.log(text.toUpperCase())
+
+// let color = ['red', 'green', 'blue', 'white', 'rose']
+// for (let i = 0; i < color.length; i++){
+//     console.log(color[i])
+// }
+
+const cities = ['London', 'Sydney', 'Tokyo', 'NY', 'Gdańsk']
+for (let i = 0; i < cities.length; i++){
+    console.log(`To miasto nazywa się : ${cities[i]}`)
+}
